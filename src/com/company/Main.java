@@ -44,8 +44,7 @@ public class Main {
                     if (inputArray[1].contains(":")) {
                         currentDir = relativePath;
                         relativePath =  Paths.get(inputArray[1]);
-                    }
-                    else {
+                    } else {
                     currentDir = relativePath;
                     relativePath =  Paths.get(currentDir.toString(),inputArray[1]);
                     }
